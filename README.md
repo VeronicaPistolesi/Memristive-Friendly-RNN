@@ -1,0 +1,1 @@
+# Memristive-Friendly-RNN
