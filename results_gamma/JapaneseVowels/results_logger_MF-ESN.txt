@@ -1,0 +1,14 @@
+Experiment with MF-ESN on dataset JapaneseVowels starting now
+** local time = 2024/12/18 17:16:46
+Model selection concluded at local time = 2024/12/18 17:56:06
+*** Best model assessment concluded at local time = 2024/12/18 17:56:09
+** Results:
+Start time: 2024/12/18 17:16:46
+End time: 2024/12/18 17:56:09
+Accuracy: MEAN 0.9735135135135135 STD 0.0043243243243243305
+Model selection time: 2360.612497806549 seconds = 39.34354163010915 minutes
+Average time for TR,TS: MEAN 0.4870896339416504 STD 0.014271523904703915
+Model summary:
+Trainable parameters = 909
+Reservoir size = 100
+Best parameters: {'num_units': 100, 'input_scaling': 1, 'memory_factor': 0.8, 'bias_scaling': 0.001, 'alpha': 1, 'gamma': 1, 'p': 5, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.01}

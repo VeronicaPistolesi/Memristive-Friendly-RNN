@@ -1,0 +1,14 @@
+Experiment with MF-ESN on dataset SyntheticControl starting now
+** local time = 2024/12/18 18:00:53
+Model selection concluded at local time = 2024/12/18 19:22:22
+*** Best model assessment concluded at local time = 2024/12/18 19:22:27
+** Results:
+Start time: 2024/12/18 18:00:53
+End time: 2024/12/18 19:22:27
+Accuracy: MEAN 0.95 STD 0.006992058987801023
+Model selection time: 4888.7770211696625 seconds = 81.47961701949437 minutes
+Average time for TR,TS: MEAN 0.9554434299468995 STD 0.003858425986496674
+Model summary:
+Trainable parameters = 606
+Reservoir size = 100
+Best parameters: {'num_units': 100, 'input_scaling': 1, 'memory_factor': 0.99, 'bias_scaling': 0.1, 'alpha': 1, 'gamma': 0.95, 'p': 5, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.1}

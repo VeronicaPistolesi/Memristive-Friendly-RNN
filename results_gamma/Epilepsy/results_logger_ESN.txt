@@ -1,0 +1,14 @@
+Experiment with ESN on dataset Epilepsy starting now
+** local time = 2024/12/19 10:13:18
+Model selection concluded at local time = 2024/12/19 10:29:27
+*** Best model assessment concluded at local time = 2024/12/19 10:29:33
+** Results:
+Start time: 2024/12/19 10:13:18
+End time: 2024/12/19 10:29:33
+Accuracy: MEAN 0.8739130434782609 STD 0.016901309840131284
+Model selection time: 968.871132850647 seconds = 16.14785221417745 minutes
+Average time for TR,TS: MEAN 1.2330760478973388 STD 0.0068579919956682734
+Model summary:
+Trainable parameters = 404
+Reservoir size = 100
+Best parameters: {'num_units': 100, 'leaky': 0.1, 'input_scaling': 1, 'bias_scaling': 1, 'spectral_radius': 0.95}

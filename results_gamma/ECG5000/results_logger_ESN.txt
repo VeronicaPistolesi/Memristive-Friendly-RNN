@@ -1,0 +1,14 @@
+Experiment with ESN on dataset ECG5000 starting now
+** local time = 2024/12/18 22:45:15
+Model selection concluded at local time = 2024/12/18 22:57:22
+*** Best model assessment concluded at local time = 2024/12/18 22:57:28
+** Results:
+Start time: 2024/12/18 22:45:15
+End time: 2024/12/18 22:57:28
+Accuracy: MEAN 0.9140444444444444 STD 0.002072274351444409
+Model selection time: 727.4769215583801 seconds = 12.124615359306336 minutes
+Average time for TR,TS: MEAN 1.038112735748291 STD 0.0029037315493935173
+Model summary:
+Trainable parameters = 505
+Reservoir size = 100
+Best parameters: {'num_units': 100, 'leaky': 0.5, 'input_scaling': 1, 'bias_scaling': 1, 'spectral_radius': 0.95}

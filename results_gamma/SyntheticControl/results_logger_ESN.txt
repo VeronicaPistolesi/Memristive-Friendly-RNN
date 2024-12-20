@@ -1,0 +1,14 @@
+Experiment with ESN on dataset SyntheticControl starting now
+** local time = 2024/12/18 19:22:27
+Model selection concluded at local time = 2024/12/18 19:29:06
+*** Best model assessment concluded at local time = 2024/12/18 19:29:09
+** Results:
+Start time: 2024/12/18 19:22:27
+End time: 2024/12/18 19:29:09
+Accuracy: MEAN 0.8906666666666666 STD 0.010198039027185546
+Model selection time: 399.67212533950806 seconds = 6.661202088991801 minutes
+Average time for TR,TS: MEAN 0.47803211212158203 STD 0.001994696306784044
+Model summary:
+Trainable parameters = 606
+Reservoir size = 100
+Best parameters: {'num_units': 100, 'leaky': 0.3, 'input_scaling': 1, 'bias_scaling': 1, 'spectral_radius': 0.99}

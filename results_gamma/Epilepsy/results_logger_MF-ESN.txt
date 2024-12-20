@@ -1,0 +1,14 @@
+Experiment with MF-ESN on dataset Epilepsy starting now
+** local time = 2024/12/19 06:22:35
+Model selection concluded at local time = 2024/12/19 10:13:05
+*** Best model assessment concluded at local time = 2024/12/19 10:13:18
+** Results:
+Start time: 2024/12/19 06:22:35
+End time: 2024/12/19 10:13:18
+Accuracy: MEAN 0.9608695652173912 STD 0.005797101449275337
+Model selection time: 13830.168063402176 seconds = 230.50280105670294 minutes
+Average time for TR,TS: MEAN 2.5351008415222167 STD 0.009252140476157735
+Model summary:
+Trainable parameters = 404
+Reservoir size = 100
+Best parameters: {'num_units': 100, 'input_scaling': 1, 'memory_factor': 0.9, 'bias_scaling': 0.001, 'alpha': 1, 'gamma': 1, 'p': 1, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.01}

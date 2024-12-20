@@ -1,0 +1,14 @@
+Experiment with ESN on dataset GunPoint starting now
+** local time = 2024/12/19 01:23:03
+Model selection concluded at local time = 2024/12/19 01:35:28
+*** Best model assessment concluded at local time = 2024/12/19 01:35:33
+** Results:
+Start time: 2024/12/19 01:23:03
+End time: 2024/12/19 01:35:33
+Accuracy: MEAN 0.6066666666666667 STD 0.021081851067789207
+Model selection time: 745.3325607776642 seconds = 12.422209346294403 minutes
+Average time for TR,TS: MEAN 1.0391290664672852 STD 0.005160738721073762
+Model summary:
+Trainable parameters = 101
+Reservoir size = 100
+Best parameters: {'num_units': 100, 'leaky': 0.1, 'input_scaling': 10, 'bias_scaling': 0, 'spectral_radius': 0.99}

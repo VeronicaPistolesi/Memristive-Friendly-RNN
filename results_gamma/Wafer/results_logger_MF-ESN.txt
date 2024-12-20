@@ -1,0 +1,14 @@
+Experiment with MF-ESN on dataset Wafer starting now
+** local time = 2024/12/19 01:35:35
+Model selection concluded at local time = 2024/12/19 06:08:32
+*** Best model assessment concluded at local time = 2024/12/19 06:09:22
+** Results:
+Start time: 2024/12/19 01:35:35
+End time: 2024/12/19 06:09:22
+Accuracy: MEAN 0.9861778066190785 STD 0.0013819298792373087
+Model selection time: 16376.812034130096 seconds = 272.9468672355016 minutes
+Average time for TR,TS: MEAN 10.063231801986694 STD 0.005542096591059398
+Model summary:
+Trainable parameters = 101
+Reservoir size = 100
+Best parameters: {'num_units': 100, 'input_scaling': 1, 'memory_factor': 0.95, 'bias_scaling': 0.001, 'alpha': 1, 'gamma': 1, 'p': 5, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.1}
