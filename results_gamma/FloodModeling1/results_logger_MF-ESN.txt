@@ -1,0 +1,14 @@
+Experiment with MF-ESN on dataset FloodModeling1 starting now
+** local time = 2024/12/19 20:38:33
+Model selection concluded at local time = 2024/12/20 02:38:10
+*** Best model assessment concluded at local time = 2024/12/20 02:38:32
+** Results:
+Start time: 2024/12/19 20:38:33
+End time: 2024/12/20 02:38:32
+RMSE: MEAN 0.007751459740692128 STD 0.0002661975578445293
+Model selection time: 21576.98650741577 seconds = 359.61644179026285 minutes
+Average time for TR,TS: MEAN 4.393805980682373 STD 0.012008832682679188
+Model summary:
+Trainable parameters = 101
+Reservoir size = 100
+Best parameters: {'num_units': 100, 'input_scaling': 0.1, 'memory_factor': 0.8, 'bias_scaling': 0, 'alpha': 1, 'gamma': 1, 'p': 5, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.01}

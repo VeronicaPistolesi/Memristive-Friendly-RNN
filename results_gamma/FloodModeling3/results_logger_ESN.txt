@@ -1,0 +1,14 @@
+Experiment with ESN on dataset FloodModeling3 starting now
+** local time = 2024/12/20 09:13:47
+Model selection concluded at local time = 2024/12/20 09:50:49
+*** Best model assessment concluded at local time = 2024/12/20 09:50:58
+** Results:
+Start time: 2024/12/20 09:13:47
+End time: 2024/12/20 09:50:58
+RMSE: MEAN 0.022638726038335055 STD 0.00019753255887613538
+Model selection time: 2222.3334579467773 seconds = 37.03889096577962 minutes
+Average time for TR,TS: MEAN 1.7729186058044433 STD 0.0332658017830275
+Model summary:
+Trainable parameters = 101
+Reservoir size = 100
+Best parameters: {'num_units': 100, 'leaky': 0.1, 'input_scaling': 1, 'bias_scaling': 0.1, 'spectral_radius': 0.99}
