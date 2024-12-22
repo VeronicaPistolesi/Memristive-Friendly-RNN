@@ -194,8 +194,8 @@ for dataset_name in datasets:
                                   loss=loss_function, metrics=['accuracy'])
 
                     model.fit(x_train_all, y_train_all, verbose=0, epochs=num_epochs,
-                              validation_data=(x_val, y_val), batch_size=best_params['batch_size'],
-                              callbacks=[keras.callbacks.EarlyStopping(monitor='val_loss', patience=best_params['patience'])])
+                              batch_size=best_params['batch_size'],
+                              callbacks=[keras.callbacks.EarlyStopping(monitor='loss', patience=best_params['patience'])])
 
                     _, acc = model.evaluate(x_test, y_test, verbose=0)
                     required_time.append(time() - start_time)
