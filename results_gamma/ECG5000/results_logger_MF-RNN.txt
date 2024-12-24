@@ -1,0 +1,73 @@
+Experiment with MF-RNN on dataset ECG5000 starting now
+** local time = 2024/12/22 09:43:11
+RUN 0. Score = 0.8799999952316284 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.001, 'gamma': 0.5, 'p': 1, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+New best score: 0.8799999952316284 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.001, 'gamma': 0.5, 'p': 1, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+RUN 1. Score = 0.8999999761581421 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.001, 'gamma': 0.5, 'p': 1, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+New best score: 0.8999999761581421 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.001, 'gamma': 0.5, 'p': 1, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+RUN 2. Score = 0.8899999856948853 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.001, 'gamma': 0.5, 'p': 5, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+RUN 3. Score = 0.8899999856948853 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.001, 'gamma': 0.5, 'p': 5, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+RUN 4. Score = 0.9300000071525574 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.001, 'gamma': 0.8, 'p': 1, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+New best score: 0.9300000071525574 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.001, 'gamma': 0.8, 'p': 1, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+RUN 5. Score = 0.9300000071525574 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.001, 'gamma': 0.8, 'p': 1, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+RUN 6. Score = 0.8999999761581421 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.001, 'gamma': 0.8, 'p': 5, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+RUN 7. Score = 0.9200000166893005 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.001, 'gamma': 0.8, 'p': 5, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+RUN 8. Score = 0.8899999856948853 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.001, 'gamma': 0.95, 'p': 1, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+RUN 9. Score = 0.8999999761581421 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.001, 'gamma': 0.95, 'p': 1, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+RUN 10. Score = 0.9100000262260437 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.001, 'gamma': 0.95, 'p': 5, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+RUN 11. Score = 0.9300000071525574 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.001, 'gamma': 0.95, 'p': 5, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+RUN 12. Score = 0.8600000143051147 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.001, 'gamma': 1, 'p': 1, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+RUN 13. Score = 0.8999999761581421 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.001, 'gamma': 1, 'p': 1, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+RUN 14. Score = 0.8700000047683716 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.001, 'gamma': 1, 'p': 5, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+RUN 15. Score = 0.8600000143051147 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.001, 'gamma': 1, 'p': 5, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+RUN 16. Score = 0.8899999856948853 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.01, 'gamma': 0.5, 'p': 1, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+RUN 17. Score = 0.8999999761581421 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.01, 'gamma': 0.5, 'p': 1, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+RUN 18. Score = 0.8899999856948853 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.01, 'gamma': 0.5, 'p': 5, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+RUN 19. Score = 0.8899999856948853 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.01, 'gamma': 0.5, 'p': 5, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+RUN 20. Score = 0.8299999833106995 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.01, 'gamma': 0.8, 'p': 1, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+RUN 21. Score = 0.9399999976158142 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.01, 'gamma': 0.8, 'p': 1, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+New best score: 0.9399999976158142 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.01, 'gamma': 0.8, 'p': 1, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+RUN 22. Score = 0.9399999976158142 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.01, 'gamma': 0.8, 'p': 5, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+RUN 23. Score = 0.9300000071525574 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.01, 'gamma': 0.8, 'p': 5, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+RUN 24. Score = 0.8700000047683716 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.01, 'gamma': 0.95, 'p': 1, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+RUN 25. Score = 0.9300000071525574 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.01, 'gamma': 0.95, 'p': 1, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+RUN 26. Score = 0.8999999761581421 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.01, 'gamma': 0.95, 'p': 5, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+RUN 27. Score = 0.9300000071525574 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.01, 'gamma': 0.95, 'p': 5, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+RUN 28. Score = 0.8399999737739563 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.01, 'gamma': 1, 'p': 1, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+RUN 29. Score = 0.8999999761581421 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.01, 'gamma': 1, 'p': 1, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+RUN 30. Score = 0.8999999761581421 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.01, 'gamma': 1, 'p': 5, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+RUN 31. Score = 0.4000000059604645 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.01, 'gamma': 1, 'p': 5, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+RUN 32. Score = 0.7300000190734863 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.1, 'gamma': 0.5, 'p': 1, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+RUN 33. Score = 0.9399999976158142 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.1, 'gamma': 0.5, 'p': 1, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+RUN 34. Score = 0.9399999976158142 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.1, 'gamma': 0.5, 'p': 5, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+RUN 35. Score = 0.9200000166893005 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.1, 'gamma': 0.5, 'p': 5, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+RUN 36. Score = 0.9300000071525574 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.1, 'gamma': 0.8, 'p': 1, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+RUN 37. Score = 0.9300000071525574 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.1, 'gamma': 0.8, 'p': 1, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+RUN 38. Score = 0.9300000071525574 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.1, 'gamma': 0.8, 'p': 5, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+RUN 39. Score = 0.9200000166893005 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.1, 'gamma': 0.8, 'p': 5, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+RUN 40. Score = 0.949999988079071 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.1, 'gamma': 0.95, 'p': 1, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+New best score: 0.949999988079071 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.1, 'gamma': 0.95, 'p': 1, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+RUN 41. Score = 0.949999988079071 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.1, 'gamma': 0.95, 'p': 1, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+RUN 42. Score = 0.949999988079071 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.1, 'gamma': 0.95, 'p': 5, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+RUN 43. Score = 0.8999999761581421 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.1, 'gamma': 0.95, 'p': 5, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+RUN 44. Score = 0.9300000071525574 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.1, 'gamma': 1, 'p': 1, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+RUN 45. Score = 0.949999988079071 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.1, 'gamma': 1, 'p': 1, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+RUN 46. Score = 0.9300000071525574 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.1, 'gamma': 1, 'p': 5, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+RUN 47. Score = 0.8899999856948853 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.1, 'gamma': 1, 'p': 5, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+Model selection concluded at local time = 2024/12/22 14:17:37 with best_val_score= 0.949999988079071
+-- MF-RNN on ECG5000 --
+Results: MEAN 0.9335999965667725 STD 0.001763278278717333
+Required time: MEAN 699.7782723903656 STD 113.12918369331555
+Total model selection time: 16465.84778547287
+Model: "sequential_172"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ rnn_158 (RNN)               (None, 100)               10200     
+                                                                 
+ dense_172 (Dense)           (None, 5)                 505       
+                                                                 
+=================================================================
+Total params: 10705 (41.82 KB)
+Trainable params: 10705 (41.82 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________

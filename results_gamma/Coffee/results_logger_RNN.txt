@@ -1,0 +1,23 @@
+Experiment with RNN on dataset Coffee starting now
+** local time = 2024/12/23 20:57:38
+RUN 0. Score = 0.5 with params: {'num_units': 100, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+New best score: 0.5 with params: {'num_units': 100, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+RUN 1. Score = 0.5 with params: {'num_units': 100, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+Model selection concluded at local time = 2024/12/23 20:57:58 with best_val_score= 0.5
+-- RNN on Coffee --
+Results: MEAN 0.5428571343421936 STD 0.014285731315612792
+Required time: MEAN 13.273867750167847 STD 4.28467893932731
+Total model selection time: 20.178940773010254
+Model: "sequential_419"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ simple_rnn_48 (SimpleRNN)   (None, 100)               10200     
+                                                                 
+ dense_419 (Dense)           (None, 1)                 101       
+                                                                 
+=================================================================
+Total params: 10301 (40.24 KB)
+Trainable params: 10301 (40.24 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________

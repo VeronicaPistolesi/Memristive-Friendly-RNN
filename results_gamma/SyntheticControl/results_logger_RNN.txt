@@ -1,0 +1,23 @@
+Experiment with RNN on dataset SyntheticControl starting now
+** local time = 2024/12/22 09:41:27
+RUN 0. Score = 0.949999988079071 with params: {'num_units': 100, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+New best score: 0.949999988079071 with params: {'num_units': 100, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+RUN 1. Score = 0.6666666865348816 with params: {'num_units': 100, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+Model selection concluded at local time = 2024/12/22 09:42:01 with best_val_score= 0.949999988079071
+-- RNN on SyntheticControl --
+Results: MEAN 0.7993333458900451 STD 0.11851675853898318
+Required time: MEAN 13.916830348968507 STD 3.43691748874301
+Total model selection time: 34.40622091293335
+Model: "sequential_119"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ simple_rnn_13 (SimpleRNN)   (None, 100)               10200     
+                                                                 
+ dense_119 (Dense)           (None, 6)                 606       
+                                                                 
+=================================================================
+Total params: 10806 (42.21 KB)
+Trainable params: 10806 (42.21 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
