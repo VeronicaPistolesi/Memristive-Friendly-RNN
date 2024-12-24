@@ -1,0 +1,23 @@
+Experiment with RNN on dataset Covid3Month starting now
+** local time = 2024/12/23 21:09:15
+RUN 0. Score = 0.08253210783004761 with params: {'num_units': 100, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+New best score: 0.08253210783004761 with params: {'num_units': 100, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+RUN 1. Score = 0.11400005221366882 with params: {'num_units': 100, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+Model selection concluded at local time = 2024/12/23 21:09:52 with best_val_score= 0.08253210783004761
+-- RNN on Covid3Month --
+Results: MEAN 0.09058348387479782 STD 0.006358370403826565
+Required time: MEAN 13.226261568069457 STD 3.6629829271307774
+Total model selection time: 36.690316915512085
+Model: "sequential_54"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ simple_rnn_6 (SimpleRNN)    (None, 100)               10200     
+                                                                 
+ dense_54 (Dense)            (None, 1)                 101       
+                                                                 
+=================================================================
+Total params: 10301 (40.24 KB)
+Trainable params: 10301 (40.24 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________

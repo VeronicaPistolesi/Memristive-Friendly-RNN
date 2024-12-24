@@ -1,0 +1,23 @@
+Experiment with RNN on dataset FloodModeling2 starting now
+** local time = 2024/12/24 01:07:49
+RUN 0. Score = 0.019664840772747993 with params: {'num_units': 100, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+New best score: 0.019664840772747993 with params: {'num_units': 100, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+RUN 1. Score = 0.12725825607776642 with params: {'num_units': 100, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+Model selection concluded at local time = 2024/12/24 01:08:48 with best_val_score= 0.019664840772747993
+-- RNN on FloodModeling2 --
+Results: MEAN 0.018926280736923217 STD 0.0013018173703147522
+Required time: MEAN 51.86502504348755 STD 10.931129442364666
+Total model selection time: 59.2086546421051
+Model: "sequential_229"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ simple_rnn_27 (SimpleRNN)   (None, 100)               10200     
+                                                                 
+ dense_229 (Dense)           (None, 1)                 101       
+                                                                 
+=================================================================
+Total params: 10301 (40.24 KB)
+Trainable params: 10301 (40.24 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
