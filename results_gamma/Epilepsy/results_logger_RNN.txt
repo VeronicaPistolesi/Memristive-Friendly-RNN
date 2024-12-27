@@ -1,20 +1,20 @@
 Experiment with RNN on dataset Epilepsy starting now
-** local time = 2024/12/26 04:15:48
+** local time = 2024/12/23 12:07:31
 RUN 0. Score = 0.3571428656578064 with params: {'num_units': 100, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
 New best score: 0.3571428656578064 with params: {'num_units': 100, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
-RUN 1. Score = 0.25 with params: {'num_units': 100, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
-Model selection concluded at local time = 2024/12/26 04:16:19 with best_val_score= 0.3571428656578064
+RUN 1. Score = 0.1785714328289032 with params: {'num_units': 100, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+Model selection concluded at local time = 2024/12/23 12:07:48 with best_val_score= 0.3571428656578064
 -- RNN on Epilepsy --
-Results: MEAN 0.4000000059604645 STD 0.0658424134187596
-Required time: MEAN 16.712144517898558 STD 3.5744019187090865
-Total model selection time: 30.97742462158203
-Model: "sequential_358"
+Results: MEAN 0.44782608151435854 STD 0.10634165701901949
+Required time: MEAN 17.943431997299193 STD 2.9447714117909976
+Total model selection time: 17.265028476715088
+Model: "sequential_359"
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
 =================================================================
  simple_rnn_41 (SimpleRNN)   (None, 100)               10400     
                                                                  
- dense_358 (Dense)           (None, 4)                 404       
+ dense_359 (Dense)           (None, 4)                 404       
                                                                  
 =================================================================
 Total params: 10804 (42.20 KB)

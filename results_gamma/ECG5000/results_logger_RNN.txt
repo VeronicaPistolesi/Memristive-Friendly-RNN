@@ -1,13 +1,13 @@
 Experiment with RNN on dataset ECG5000 starting now
-** local time = 2024/12/25 04:07:17
-RUN 0. Score = 0.9399999976158142 with params: {'num_units': 100, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
-New best score: 0.9399999976158142 with params: {'num_units': 100, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
-RUN 1. Score = 0.9200000166893005 with params: {'num_units': 100, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
-Model selection concluded at local time = 2024/12/25 04:08:15 with best_val_score= 0.9399999976158142
+** local time = 2024/12/22 15:15:56
+RUN 0. Score = 0.949999988079071 with params: {'num_units': 100, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+New best score: 0.949999988079071 with params: {'num_units': 100, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+RUN 1. Score = 0.6700000166893005 with params: {'num_units': 100, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+Model selection concluded at local time = 2024/12/22 15:16:50 with best_val_score= 0.949999988079071
 -- RNN on ECG5000 --
-Results: MEAN 0.9088000059127808 STD 0.030322891650657206
-Required time: MEAN 57.20056848526001 STD 21.208601865684493
-Total model selection time: 58.16500997543335
+Results: MEAN 0.923288881778717 STD 0.017757443136741578
+Required time: MEAN 46.031093168258664 STD 22.50761223364162
+Total model selection time: 54.75400161743164
 Model: "sequential_179"
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   

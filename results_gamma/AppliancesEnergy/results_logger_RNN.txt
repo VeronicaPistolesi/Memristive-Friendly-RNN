@@ -1,0 +1,23 @@
+Experiment with RNN on dataset AppliancesEnergy starting now
+** local time = 2024/12/23 21:22:00
+RUN 0. Score = 4.759180068969727 with params: {'num_units': 100, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+New best score: 4.759180068969727 with params: {'num_units': 100, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+RUN 1. Score = 5.4473772048950195 with params: {'num_units': 100, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+Model selection concluded at local time = 2024/12/23 21:22:51 with best_val_score= 4.759180068969727
+-- RNN on AppliancesEnergy --
+Results: MEAN 3.5232101917266845 STD 0.0058152511041312995
+Required time: MEAN 26.84328088760376 STD 3.2153656287652264
+Total model selection time: 50.98045468330383
+Model: "sequential_109"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ simple_rnn_13 (SimpleRNN)   (None, 100)               12500     
+                                                                 
+ dense_109 (Dense)           (None, 1)                 101       
+                                                                 
+=================================================================
+Total params: 12601 (49.22 KB)
+Trainable params: 12601 (49.22 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________

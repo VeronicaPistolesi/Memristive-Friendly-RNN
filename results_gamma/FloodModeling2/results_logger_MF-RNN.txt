@@ -1,5 +1,5 @@
 Experiment with MF-RNN on dataset FloodModeling2 starting now
-** local time = 2024/12/26 16:05:27
+** local time = 2024/12/23 23:41:02
 RUN 0. Score = 0.004881725646555424 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.001, 'gamma': 0.5, 'p': 1, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
 New best score: 0.004881725646555424 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.001, 'gamma': 0.5, 'p': 1, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
 RUN 1. Score = 0.004888877272605896 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.001, 'gamma': 0.5, 'p': 1, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
@@ -51,11 +51,11 @@ RUN 44. Score = 0.00955689325928688 with params: {'num_units': 100, 'kp0': 0.000
 RUN 45. Score = 0.014807098545134068 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.1, 'gamma': 1, 'p': 1, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
 RUN 46. Score = nan with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.1, 'gamma': 1, 'p': 5, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
 RUN 47. Score = nan with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.1, 'gamma': 1, 'p': 5, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
-Model selection concluded at local time = 2024/12/26 17:25:57 with best_val_score= 0.003927538637071848
+Model selection concluded at local time = 2024/12/24 00:55:09 with best_val_score= 0.003927538637071848
 -- MF-RNN on FloodModeling2 --
 Results: MEAN 0.017066662758588792 STD 0.00023636835547014636
-Required time: MEAN 170.1557146549225 STD 19.705747291641114
-Total model selection time: 4829.873611688614
+Required time: MEAN 151.85807118415832 STD 17.646293131933195
+Total model selection time: 4447.554936170578
 Model: "sequential_222"
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   

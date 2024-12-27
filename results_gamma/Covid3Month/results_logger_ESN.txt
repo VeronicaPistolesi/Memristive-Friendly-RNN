@@ -1,0 +1,14 @@
+Experiment with ESN on dataset Covid3Month starting now
+** local time = 2024/12/19 15:17:40
+Model selection concluded at local time = 2024/12/19 15:32:07
+*** Best model assessment concluded at local time = 2024/12/19 15:32:10
+** Results:
+Start time: 2024/12/19 15:17:40
+End time: 2024/12/19 15:32:10
+RMSE: MEAN 0.04096271523437997 STD 0.0004836296622928419
+Model selection time: 866.6909732818604 seconds = 14.444849554697672 minutes
+Average time for TR,TS: MEAN 0.6753371715545654 STD 0.000652747898258272
+Model summary:
+Trainable parameters = 101
+Reservoir size = 100
+Best parameters: {'num_units': 100, 'leaky': 0.5, 'input_scaling': 1, 'bias_scaling': 1, 'spectral_radius': 0.8}

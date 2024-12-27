@@ -1,14 +1,13 @@
 Experiment with RNN on dataset JapaneseVowels starting now
-** local time = 2024/12/24 20:03:21
-RUN 0. Score = 0.9074074029922485 with params: {'num_units': 100, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
-New best score: 0.9074074029922485 with params: {'num_units': 100, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
-RUN 1. Score = 0.9259259104728699 with params: {'num_units': 100, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
-New best score: 0.9259259104728699 with params: {'num_units': 100, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
-Model selection concluded at local time = 2024/12/24 20:03:48 with best_val_score= 0.9259259104728699
+** local time = 2024/12/22 06:39:42
+RUN 0. Score = 0.9259259104728699 with params: {'num_units': 100, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+New best score: 0.9259259104728699 with params: {'num_units': 100, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+RUN 1. Score = 0.5925925970077515 with params: {'num_units': 100, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+Model selection concluded at local time = 2024/12/22 06:40:04 with best_val_score= 0.9259259104728699
 -- RNN on JapaneseVowels --
-Results: MEAN 0.8264864802360534 STD 0.08242843749617412
-Required time: MEAN 9.120540142059326 STD 2.15069334223437
-Total model selection time: 26.93071699142456
+Results: MEAN 0.9162162065505981 STD 0.010945109343993481
+Required time: MEAN 86.07455358505248 STD 153.50899995957636
+Total model selection time: 21.60490584373474
 Model: "sequential_59"
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   

@@ -1,14 +1,14 @@
 Experiment with ESN on dataset JapaneseVowels starting now
-** local time = 2024/12/24 21:51:04
-Model selection concluded at local time = 2024/12/24 21:56:51
-*** Best model assessment concluded at local time = 2024/12/24 21:56:53
+** local time = 2024/12/18 17:56:09
+Model selection concluded at local time = 2024/12/18 18:00:50
+*** Best model assessment concluded at local time = 2024/12/18 18:00:52
 ** Results:
-Start time: 2024/12/24 21:51:04
-End time: 2024/12/24 21:56:53
-Accuracy: MEAN 0.9837837837837838 STD 0.002960662473000908
-Model selection time: 347.12436389923096 seconds = 5.785406064987183 minutes
-Average time for TR,TS: MEAN 0.3401787281036377 STD 0.1300242562847159
+Start time: 2024/12/18 17:56:09
+End time: 2024/12/18 18:00:52
+Accuracy: MEAN 0.9832432432432432 STD 0.002022517506364319
+Model selection time: 280.7335901260376 seconds = 4.678893168767293 minutes
+Average time for TR,TS: MEAN 0.3852218151092529 STD 0.006354450601583637
 Model summary:
 Trainable parameters = 909
 Reservoir size = 100
-Best parameters: {'num_units': 100, 'leaky': 0.1, 'input_scaling': 1, 'bias_scaling': 0.001, 'spectral_radius': 0.99}
+Best parameters: {'num_units': 100, 'leaky': 0.1, 'input_scaling': 1, 'bias_scaling': 1, 'spectral_radius': 0.9}
