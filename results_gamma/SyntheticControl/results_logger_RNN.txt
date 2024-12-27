@@ -1,13 +1,13 @@
 Experiment with RNN on dataset SyntheticControl starting now
-** local time = 2024/12/22 09:41:27
-RUN 0. Score = 0.949999988079071 with params: {'num_units': 100, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
-New best score: 0.949999988079071 with params: {'num_units': 100, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
-RUN 1. Score = 0.6666666865348816 with params: {'num_units': 100, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
-Model selection concluded at local time = 2024/12/22 09:42:01 with best_val_score= 0.949999988079071
+** local time = 2024/12/24 22:48:20
+RUN 0. Score = 0.9166666865348816 with params: {'num_units': 100, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+New best score: 0.9166666865348816 with params: {'num_units': 100, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+RUN 1. Score = 0.4333333373069763 with params: {'num_units': 100, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+Model selection concluded at local time = 2024/12/24 22:48:45 with best_val_score= 0.9166666865348816
 -- RNN on SyntheticControl --
-Results: MEAN 0.7993333458900451 STD 0.11851675853898318
-Required time: MEAN 13.916830348968507 STD 3.43691748874301
-Total model selection time: 34.40622091293335
+Results: MEAN 0.9306666731834412 STD 0.039180489101731934
+Required time: MEAN 17.421103715896606 STD 3.3171733033994495
+Total model selection time: 24.95486307144165
 Model: "sequential_119"
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   

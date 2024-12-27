@@ -1,14 +1,14 @@
 Experiment with RNN on dataset GunPoint starting now
-** local time = 2024/12/22 15:34:18
+** local time = 2024/12/25 04:28:44
 RUN 0. Score = 0.30000001192092896 with params: {'num_units': 100, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
 New best score: 0.30000001192092896 with params: {'num_units': 100, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
 RUN 1. Score = 0.5 with params: {'num_units': 100, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
 New best score: 0.5 with params: {'num_units': 100, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
-Model selection concluded at local time = 2024/12/22 15:34:43 with best_val_score= 0.5
+Model selection concluded at local time = 2024/12/25 04:29:01 with best_val_score= 0.5
 -- RNN on GunPoint --
-Results: MEAN 0.5013333320617676 STD 0.006531966418047259
-Required time: MEAN 6.928490257263183 STD 1.0776667073604624
-Total model selection time: 24.731071710586548
+Results: MEAN 0.5306666731834412 STD 0.0439393576260526
+Required time: MEAN 7.663348960876465 STD 1.1443658775121828
+Total model selection time: 16.357298851013184
 Model: "sequential_239"
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   

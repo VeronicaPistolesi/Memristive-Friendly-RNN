@@ -1,20 +1,20 @@
 Experiment with RNN on dataset Wafer starting now
-** local time = 2024/12/23 00:43:34
+** local time = 2024/12/25 15:16:11
 RUN 0. Score = 0.9049999713897705 with params: {'num_units': 100, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
 New best score: 0.9049999713897705 with params: {'num_units': 100, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
 RUN 1. Score = 0.9049999713897705 with params: {'num_units': 100, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
-Model selection concluded at local time = 2024/12/23 00:45:04 with best_val_score= 0.9049999713897705
+Model selection concluded at local time = 2024/12/25 15:18:09 with best_val_score= 0.9049999713897705
 -- RNN on Wafer --
-Results: MEAN 0.804347836971283 STD 0.10862593959117821
-Required time: MEAN 76.95859942436218 STD 21.953124734840777
-Total model selection time: 89.7509696483612
-Model: "sequential_299"
+Results: MEAN 0.8898442625999451 STD 0.0035941111497648235
+Required time: MEAN 54.31430387496948 STD 6.027891629354471
+Total model selection time: 117.66449093818665
+Model: "sequential_298"
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
 =================================================================
  simple_rnn_34 (SimpleRNN)   (None, 100)               10200     
                                                                  
- dense_299 (Dense)           (None, 1)                 101       
+ dense_298 (Dense)           (None, 1)                 101       
                                                                  
 =================================================================
 Total params: 10301 (40.24 KB)

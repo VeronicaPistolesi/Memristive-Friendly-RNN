@@ -1,13 +1,13 @@
 Experiment with ESN on dataset Wafer starting now
-** local time = 2024/12/19 06:09:22
-Model selection concluded at local time = 2024/12/19 06:22:28
-*** Best model assessment concluded at local time = 2024/12/19 06:22:33
+** local time = 2024/12/24 22:37:47
+Model selection concluded at local time = 2024/12/24 23:01:43
+*** Best model assessment concluded at local time = 2024/12/24 23:01:51
 ** Results:
-Start time: 2024/12/19 06:09:22
-End time: 2024/12/19 06:22:33
-Accuracy: MEAN 0.9858208955223879 STD 0.0028849996886401138
-Model selection time: 785.5059852600098 seconds = 13.091766421000163 minutes
-Average time for TR,TS: MEAN 1.0727787017822266 STD 0.005726290020939783
+Start time: 2024/12/24 22:37:47
+End time: 2024/12/24 23:01:51
+Accuracy: MEAN 0.985626216742375 STD 0.0020841644195654613
+Model selection time: 1436.7736568450928 seconds = 23.94622761408488 minutes
+Average time for TR,TS: MEAN 1.442915916442871 STD 0.06949441913678671
 Model summary:
 Trainable parameters = 101
 Reservoir size = 100

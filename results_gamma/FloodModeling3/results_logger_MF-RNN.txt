@@ -1,5 +1,5 @@
 Experiment with MF-RNN on dataset FloodModeling3 starting now
-** local time = 2024/12/24 01:13:07
+** local time = 2024/12/26 17:46:14
 RUN 0. Score = 0.015792084857821465 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.001, 'gamma': 0.5, 'p': 1, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
 New best score: 0.015792084857821465 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.001, 'gamma': 0.5, 'p': 1, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
 RUN 1. Score = 0.01580558717250824 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.001, 'gamma': 0.5, 'p': 1, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
@@ -51,11 +51,11 @@ RUN 44. Score = 0.020075280219316483 with params: {'num_units': 100, 'kp0': 0.00
 RUN 45. Score = 0.029442988336086273 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.1, 'gamma': 1, 'p': 1, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
 RUN 46. Score = 0.011648290790617466 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.1, 'gamma': 1, 'p': 5, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
 RUN 47. Score = 0.038573428988456726 with params: {'num_units': 100, 'kp0': 0.0001, 'kd0': 0.5, 'etap': 10, 'etad': 1, 'dt': 0.1, 'gamma': 1, 'p': 5, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
-Model selection concluded at local time = 2024/12/24 03:03:51 with best_val_score= 0.006917974911630154
+Model selection concluded at local time = 2024/12/26 19:46:09 with best_val_score= 0.006917974911630154
 -- MF-RNN on FloodModeling3 --
-Results: MEAN 0.01002307590097189 STD 0.0002209922555211348
-Required time: MEAN 508.4872297286987 STD 62.81628954090838
-Total model selection time: 6643.239295244217
+Results: MEAN 0.010023076273500919 STD 0.00022099204173281202
+Required time: MEAN 550.0674218654633 STD 68.5236967409332
+Total model selection time: 7194.835964679718
 Model: "sequential_282"
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   

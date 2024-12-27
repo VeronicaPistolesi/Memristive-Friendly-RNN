@@ -1,13 +1,13 @@
 Experiment with RNN on dataset FloodModeling2 starting now
-** local time = 2024/12/24 01:07:49
-RUN 0. Score = 0.019664840772747993 with params: {'num_units': 100, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
-New best score: 0.019664840772747993 with params: {'num_units': 100, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
-RUN 1. Score = 0.12725825607776642 with params: {'num_units': 100, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
-Model selection concluded at local time = 2024/12/24 01:08:48 with best_val_score= 0.019664840772747993
+** local time = 2024/12/26 17:40:08
+RUN 0. Score = 0.01407630741596222 with params: {'num_units': 100, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+New best score: 0.01407630741596222 with params: {'num_units': 100, 'lr': 0.001, 'patience': 10, 'batch_size': 64}
+RUN 1. Score = 0.16977974772453308 with params: {'num_units': 100, 'lr': 0.01, 'patience': 10, 'batch_size': 64}
+Model selection concluded at local time = 2024/12/26 17:41:17 with best_val_score= 0.01407630741596222
 -- RNN on FloodModeling2 --
-Results: MEAN 0.018926280736923217 STD 0.0013018173703147522
-Required time: MEAN 51.86502504348755 STD 10.931129442364666
-Total model selection time: 59.2086546421051
+Results: MEAN 0.020763161405920983 STD 0.002788011595552809
+Required time: MEAN 59.33710994720459 STD 26.80255215878999
+Total model selection time: 69.13284111022949
 Model: "sequential_229"
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   

@@ -1,14 +1,14 @@
 Experiment with ESN on dataset Coffee starting now
-** local time = 2024/12/19 14:55:51
-Model selection concluded at local time = 2024/12/19 15:17:27
-*** Best model assessment concluded at local time = 2024/12/19 15:17:35
+** local time = 2024/12/24 23:40:00
+Model selection concluded at local time = 2024/12/25 00:29:11
+*** Best model assessment concluded at local time = 2024/12/25 00:29:23
 ** Results:
-Start time: 2024/12/19 14:55:51
-End time: 2024/12/19 15:17:35
-Accuracy: MEAN 0.5714285714285714 STD 0.0
-Model selection time: 1296.3209500312805 seconds = 21.60534916718801 minutes
-Average time for TR,TS: MEAN 1.6706997394561767 STD 0.00529033993826687
+Start time: 2024/12/24 23:40:00
+End time: 2024/12/25 00:29:23
+Accuracy: MEAN 0.5857142857142857 STD 0.028571428571428602
+Model selection time: 2951.113870382309 seconds = 49.18523117303848 minutes
+Average time for TR,TS: MEAN 2.416654109954834 STD 0.049237329163586065
 Model summary:
 Trainable parameters = 101
 Reservoir size = 100
-Best parameters: {'num_units': 100, 'leaky': 0.3, 'input_scaling': 0.1, 'bias_scaling': 0.001, 'spectral_radius': 0.95}
+Best parameters: {'num_units': 100, 'leaky': 0.3, 'input_scaling': 0.1, 'bias_scaling': 0.1, 'spectral_radius': 0.99}
